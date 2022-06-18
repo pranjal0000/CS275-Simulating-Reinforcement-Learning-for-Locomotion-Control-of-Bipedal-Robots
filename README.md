@@ -35,4 +35,5 @@ If you want to train your own model, here is an example
 
 To run the DDPG algorithm, the code is present in the /bipedal-walker/ddpg-torch directory. Then the following comman an be called
 * python3 train.py 
+
 The flag pretrained can be set to true to in order to use our pretrained model. Else, the model trains from scratch. 
