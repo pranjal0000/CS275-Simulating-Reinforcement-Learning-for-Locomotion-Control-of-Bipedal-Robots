@@ -18,4 +18,4 @@ In this project, we have used the A3C and DDPG algorithms to traim the controlle
 ## Run the code
 
 To run the A3C code, go into the /a3c directory and test our pre-trained BipedalWalker-v2 controller using the command
-$ make demo-simple
+* * make demo-simple
