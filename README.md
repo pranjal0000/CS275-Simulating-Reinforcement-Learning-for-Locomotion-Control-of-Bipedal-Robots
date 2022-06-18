@@ -27,4 +27,6 @@ If you want to train your own model, here is an example
 * python3 ./src/main.py --mode=train --env="BipedalWalker-v2" --n_workers=4 --n_frames=1 --n_steps=20 --model_load_dir="./models/CS275-BipedalWalker-v2" --model_save_dir="./models/new-BipedalWalker-v2"
 
 
-To run the DDPG algorithm, the code is present in the /bipedal-walker directory. 
+To run the DDPG algorithm, the code is present in the /bipedal-walker/ddpg-torch directory. Then the following comman an be called
+* python3 train.py 
+The flag pretrained can be set to true to in order to use our pretrained model. Else, the model trains from scratch. 
