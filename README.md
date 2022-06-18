@@ -18,4 +18,11 @@ In this project, we have used the A3C and DDPG algorithms to traim the controlle
 ## Run the code
 
 To run the A3C code, go into the /a3c directory and test our pre-trained BipedalWalker-v2 controller using the command
-* * make demo-simple
+* make demo-simple
+
+To test our pre-trained BipedalWalkerHardcore-v2 controller, run the command
+* make demo-hardcore
+
+If you want to train your own model, here is an example
+* python3 ./src/main.py --mode=train --env="BipedalWalker-v2" --n_workers=4 --n_frames=1 --n_steps=20 --model_load_dir="./models/CS275-BipedalWalker-v2" --model_save_dir="./models/new-BipedalWalker-v2"
+
